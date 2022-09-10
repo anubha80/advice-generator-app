@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F1EEE9;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    position: relative;
+    font-weight: 800;
+}
+
+.advice-main-container{
+    background-color: hsl(218, 23%, 16%);
+    position: absolute;
+    width: 80%;
+    height: 78vh;
+    top: 10vh;
+    left: 10%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+.advice-card-container{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    background-color: hsl(217, 19%, 38%);
+    border-radius: 2vh;
+}
+
+
+#advice-id{
+    position: absolute;
+    height: 5%;
+    width: 50%;
+    text-align: center;
+    top: 5%;
+    left: 25%;
+    color: hsl(150, 100%, 66%);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 15px;
+    letter-spacing: .5rem;
+    border-radius: 2vh;
+}
+
+
+
+#advice-text{
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    top: 5%;
+    left:15%;
+    font-size: 28px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.divider{
+    position: absolute;
+    height: 15%;
+    width: 100%;
+    top: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#dice{
+    background-color: hsl(150, 100%, 66%);
+    position: absolute;
+    height: 20%;
+    width: 10%;
+    top: 115%;
+    left: 45%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.pattern-circle1, .pattern-circle2, .pattern-circle3, .pattern-circle4,
+.pattern-circle5, .pattern-circle6, .pattern-circle7, .pattern-circle8  {
+    position: absolute;
+    background-color: lightcoral;
+    height: 3vh;
+    width: 3vh;
+    border-radius: 50vh;
+}
+
+.pattern-circle1{
+    top:80vh;
+    left: 0vh;
+}
+.pattern-circle2{
+    top:80vh;
+    left: 4vh;
+}
+.pattern-circle3{
+    top:80vh;
+    left: 8vh;
+}
+.pattern-circle4{
+    top:80vh;
+    left: 12vh;
+}
+.pattern-circle5{
+    top:84vh;
+    left: 12vh;
+}
+.pattern-circle6{
+    top:84vh;
+    left: 8vh;
+}
+.pattern-circle7{
+    top:84vh;
+    left: 4vh;
+}
+.pattern-circle8{
+    top:84vh;
+    left: 0vh;
+}
+.pattern-rectangle1, .pattern-rectangle2{
+    position: absolute;
+    background-color: lightpink;
+}
+.pattern-rectangle1{
+    height: 16vh;
+    width: 2vh;
+    top: -10vh;
+    left: -8vh;
+}
+
+.pattern-rectangle2{
+    height: 2vh;
+    width: 8vh;
+    top: 4vh;
+    left: -14vh;
+}
+
+
+.pattern-half-circle{
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    border-top-left-radius: 110vh;
+    border-top-right-radius: 110vh;
+    border: 3vh solid skyblue;
+    border-bottom: 0vh;
+    top:80vh;
+    left: 120vh;
+}
+
+.pattern-zig-zag{
+    position: absolute;
+    top: -10vh;
+    right: -20vh;
+    height: 6vh;
+    width: 35vh;
+    background:  
+    linear-gradient(135deg, #F1EEE9 35%, transparent 25%) -25px 0,
+    linear-gradient(225deg, #F1EEE9 35%, transparent 25%) -25px 0,
+    linear-gradient(315deg, #F1EEE9 35%, transparent 25%),
+    linear-gradient(45deg, #F1EEE9 35%, transparent 25%);	
+    background-size: 50px 50px;
+    background-color: rgb(147, 177, 101)
+}
